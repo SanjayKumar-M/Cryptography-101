@@ -4,17 +4,17 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
 
 
-public class sha2{
+public class sha256{
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the message you need to hash :");
         String Message = input.nextLine();
     
-        System.out.println("And the SHA-256 hash is"+SHA256(Message));
+        System.out.println("And the SHA-256 hash is"+Hashing(Message));
     }
 
-    static String SHA256(String input){
+    static String Hashing(String input){
         try{
 
             MessageDigest md = MessageDigest.getInstance("SHA-256");
