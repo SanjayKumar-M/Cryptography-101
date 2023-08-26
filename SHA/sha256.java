@@ -1,8 +1,9 @@
 package SHA;
-
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
+
+
 
 public class sha256 {
 
