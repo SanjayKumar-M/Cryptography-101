@@ -18,13 +18,19 @@ public class Sha512 {
             // SHA-512 (The hash function we need to perform)
             MessageDigest md = MessageDigest.getInstance("SHA-512");
 
-            //now we are perfroming the hashing on the Message using digest method where we get in bytes 
+            // now we are perfroming the hashing on the Message using digest method where we
+            // get in bytes
             byte[] hashes = md.digest(Message.getBytes());
-            //Now those bytes are converted into
+            // Now those bytes are converted into hexadecimal format
             StringBuilder hexHash = new StringBuilder();
+            // loop through each bytes in hashes[] array
             for (byte bytes : hashes) {
+                // Convert the byte to a two-character hexadecimal representation and append to
+                // hexHash
                 hexHash.append(String.format("%02x", bytes));
             }
+            // Return the hexadecimal representation of the hash
+
             return hexHash.toString();
         } catch (NoSuchAlgorithmException ex) {
             ex.printStackTrace();
