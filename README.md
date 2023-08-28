@@ -6,11 +6,13 @@ Are you curious about how secret messages are created, passwords are protected, 
 
 ## What's Inside?
 
-This repository hosts a collection of 10 cool cryptography-related projects, each designed to help you understand fundamental concepts in a fun and interactive way. Get ready to dive into:
+This repository hosts a collection of Cryptographic concepts, each designed to help you understand fundamental concepts in a fun and interactive way. Get ready to dive into:
 
-1. **Caesar Cipher:** Shift characters to create secret messages.
-2. **Vigenère Cipher:** Encrypt with a keyword-based method.
-3. **Substitution Cipher Breaker:** Crack codes using frequency analysis.
+## Focused on Asymmetric Encryption and Hash Functions since this is related to Blockchain 
+
+1. **Caesar Cipher** Shift characters to create secret messages.
+2. **SHA2** SHA 2 based Hash functions.
+3. **SHA3** Crack codes using frequency analysis.
 4. **OTP (One-Time Pad) Generator:** Create ultra-secure keys.
 5. **Password Manager:** Safeguard passwords using encryption.
 6. **Random Key Generator:** Produce cryptographic keys.
