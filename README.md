@@ -18,8 +18,8 @@ This repository hosts a collection of Cryptographic concepts, each designed to h
 6. **Random Key Generator** 
 7. **Digital Signature Generator** 
 8. **Blake2** 
-9. **Secure File Transfer:** Encrypt files before sending.
-10. **Secure Chat Application:** Send secret messages using encryption.
+9. **Whirlpool** 
+10. **Ethash** 
 
 ## Why Explore Cryptography?
 
