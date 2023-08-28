@@ -10,14 +10,14 @@ This repository hosts a collection of Cryptographic concepts, each designed to h
 
 ## Focused on Asymmetric Encryption and Hash Functions since this is related to Blockchain 
 
-1. **Caesar Cipher** Shift characters to create secret messages.
-2. **SHA2** SHA 2 based Hash functions.
-3. **SHA3** Crack codes using frequency analysis.
-4. **OTP (One-Time Pad) Generator:** Create ultra-secure keys.
-5. **Password Manager:** Safeguard passwords using encryption.
-6. **Random Key Generator:** Produce cryptographic keys.
-7. **Digital Signature Generator:** Sign messages with keys.
-8. **Hashing Tool:** Hash your inputs using MD5, SHA-1, SHA-256.
+1. **Caesar Cipher** 
+2. **SHA2** 
+3. **SHA3**
+4. **Argon2** 
+5. **Elyptical Curve Cryptography** 
+6. **Random Key Generator** 
+7. **Digital Signature Generator** 
+8. **Blake2** 
 9. **Secure File Transfer:** Encrypt files before sending.
 10. **Secure Chat Application:** Send secret messages using encryption.
 
