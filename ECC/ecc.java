@@ -4,7 +4,8 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
 import java.security.Security;
-
+//ecc is used to generate public key from private key
+//Generally it is given by Generative point G on the curve denoted by F(x,y). so , Public Key = Private Key*G
 public class ecc {
     public static void main(String[] args) throws Exception {
         // Add Bouncy Castle as a security provider
