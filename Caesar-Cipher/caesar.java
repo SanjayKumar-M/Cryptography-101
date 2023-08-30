@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class caesar {
 
+    //Though it is not related to blockchain
+
     public static String encrypt(String plaintext, int shift) {
         StringBuilder encryptedText = new StringBuilder();
 
