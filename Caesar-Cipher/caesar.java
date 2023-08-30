@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class caesar {
 
-    //Though it is not related to blockchain
+    //Though it is not related to blockchain it could be the brush up for cryptography
 
     public static String encrypt(String plaintext, int shift) {
         StringBuilder encryptedText = new StringBuilder();
